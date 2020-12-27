@@ -1,0 +1,10 @@
+{
+  "name": "FirstApp",
+  "integrations": {
+    "capacitor": {
+      "enabled": false
+    },
+    "cordova": {}
+  },
+  "type": "angular"
+}
