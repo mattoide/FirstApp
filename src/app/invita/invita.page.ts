@@ -16,7 +16,8 @@ export class InvitaPage implements OnInit {
   }
 
   takePhoto() {
-   this.mediaService.takePhoto();
+    this.mediaService.takePhoto();
+  //  this.mediaService.logp();
   }
   
   takeVideo(){

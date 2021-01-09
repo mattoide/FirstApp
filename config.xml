@@ -98,4 +98,6 @@
     <plugin name="cordova-plugin-splashscreen" spec="5.0.2" />
     <plugin name="cordova-plugin-ionic-keyboard" spec="^2.0.5" />
     <allow-navigation href="http://localhost:8100" sessionid="7800ff33" />
+    <allow-navigation href="*" />
+    <allow-navigation href="file://*/*" />
 </widget>

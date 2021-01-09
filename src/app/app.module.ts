@@ -17,6 +17,7 @@ import { Base64 } from '@ionic-native/base64/ngx';
 import { WebView } from '@ionic-native/ionic-webview/ngx';
 import { FileOpener } from '@ionic-native/file-opener/ngx';
 
+import { PhotoLibrary } from '@ionic-native/photo-library/ngx';
 
 
 
@@ -33,7 +34,8 @@ import { FileOpener } from '@ionic-native/file-opener/ngx';
     MediaCapture,
     Base64,
     WebView,
-    FileOpener
+    FileOpener,
+    PhotoLibrary
     ],
   bootstrap: [AppComponent]
 })

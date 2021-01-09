@@ -14,11 +14,14 @@
     <ion-icon name="video"></ion-icon>
   </ion-fab-button>
 
-  <ion-grid>
+  <ion-grid> 
     <ion-row>
     <ion-col size="6" 
     *ngFor="let photo of mediaService.photos;">
-    <ion-img [src]="photo.path"></ion-img>
+    <!-- <ion-img [src]="photo.path"></ion-img> -->
+    <!-- <ion-img [src]="file:///storage/emulated/0/WhatsApp/Media/WhatsApp Images/IMG-20210104-WA0015.jpg"></ion-img> -->
+    <img src={{photo.path}}/>
+    
     </ion-col>
 
     
